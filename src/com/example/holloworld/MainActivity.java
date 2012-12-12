@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		//maindayo
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		mSound=new File(getCacheDir(),RECORDED_AUDIO);
